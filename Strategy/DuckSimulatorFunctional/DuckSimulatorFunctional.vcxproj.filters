@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\FlyBehavior">
+      <UniqueIdentifier>{06863f87-1abf-4cdb-9c68-2e7a81ec2f6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\QuackBehavior">
+      <UniqueIdentifier>{d0505c28-0015-45ad-b0a9-25acb984c0b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DanceBehavior">
+      <UniqueIdentifier>{1174279f-9fe9-4096-ac39-b70984685f6c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DanceNoWay.cpp">
+      <Filter>Source Files\DanceBehavior</Filter>
+    </ClCompile>
+    <ClCompile Include="DanceWaltz.cpp">
+      <Filter>Source Files\DanceBehavior</Filter>
+    </ClCompile>
+    <ClCompile Include="DanceMenuet.cpp">
+      <Filter>Source Files\DanceBehavior</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyNoWay.cpp">
+      <Filter>Source Files\FlyBehavior</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyWithWings.cpp">
+      <Filter>Source Files\FlyBehavior</Filter>
+    </ClCompile>
+    <ClCompile Include="MuteQuackBehavior.cpp">
+      <Filter>Source Files\QuackBehavior</Filter>
+    </ClCompile>
+    <ClCompile Include="QuackBehavior.cpp">
+      <Filter>Source Files\QuackBehavior</Filter>
+    </ClCompile>
+    <ClCompile Include="SqueakBehavior.cpp">
+      <Filter>Source Files\QuackBehavior</Filter>
+    </ClCompile>
+    <ClCompile Include="CDuck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DanceNoWay.h">
+      <Filter>Source Files\DanceBehavior</Filter>
+    </ClInclude>
+    <ClInclude Include="DanceWaltz.h">
+      <Filter>Source Files\DanceBehavior</Filter>
+    </ClInclude>
+    <ClInclude Include="DanceMenuet.h">
+      <Filter>Source Files\DanceBehavior</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyNoWay.h">
+      <Filter>Source Files\FlyBehavior</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyWithWings.h">
+      <Filter>Source Files\FlyBehavior</Filter>
+    </ClInclude>
+    <ClInclude Include="MuteQuackBehavior.h">
+      <Filter>Source Files\QuackBehavior</Filter>
+    </ClInclude>
+    <ClInclude Include="QuackBehavior.h">
+      <Filter>Source Files\QuackBehavior</Filter>
+    </ClInclude>
+    <ClInclude Include="SqueakBehavior.h">
+      <Filter>Source Files\QuackBehavior</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
